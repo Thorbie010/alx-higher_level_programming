@@ -7,11 +7,11 @@ if __name__ == "__main__":
     if total_args < 1:
         print("0 arguments.")
 
-    elif total_args == 1:
-        print(total_args, "argument:")
-        for i, arg in enumerate(sys.argv[1:], start=1):
-            print("{}: {}".format(i, arg))
     else:
-        print(total_args, "arguments:")
+        if total_args == 1:
+            print(total_args, "argument:")
+        else:
+            print(total_args, "arguments:")
+
         for i, arg in enumerate(sys.argv[1:], start=1):
             print("{}: {}".format(i, arg))
