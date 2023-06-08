@@ -5,7 +5,7 @@ if __name__ == "__main__":
     total_args = len(sys.argv) - 1
 
     if total_args < 1:
-        print("0 arguments.")
+        print("0 argument.")
 
     else:
         print(total_args, "arguments:")
