@@ -555,3 +555,6 @@ Disassembly of circumference:
     Tip: Python [bytecode](https://docs.python.org/3.4/library/dis.html)
 
 ---
+
+## Author
+* **Robinson Montes** - [mecomonteshbtn](https://github.com/mecomonteshbtn)
