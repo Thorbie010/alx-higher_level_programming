@@ -13,4 +13,3 @@ class Square:
         empty
     """
     pass
-    
