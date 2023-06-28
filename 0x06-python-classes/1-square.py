@@ -20,4 +20,3 @@ class Square:
             size: (:obj: 'int'): A private instance size
         """
         self.__size = size
-        
