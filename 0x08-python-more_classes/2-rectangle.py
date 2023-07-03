@@ -85,20 +85,18 @@ class Rectangle:
         else:
             self.__width = value
 
-    @area
     def area(self):
         """
-        Property area to retrieve it
+        Calculate area of the rectangle
 
         Returns:
             area (int): The area of the rectangle
         """
-        return self.height * self.width
+        return self.__height * self.__width
 
-    @perimeter
     def perimeter(self):
         """
-        Property perimeter to retrieve it
+        Calculate perimeter of the rectangle
 
         Returns:
             perimeter (int): The perimeter of the rectangle
@@ -108,4 +106,4 @@ class Rectangle:
         elif self.__height == 0:
             perimeter = 0
         else:
-            return 2 * (self.height + self.width)
+            return 2 * (self.__height + self.__width)
