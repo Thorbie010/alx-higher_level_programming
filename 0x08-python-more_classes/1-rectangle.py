@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon July 03 2023
+Created on Mon July 03 14:04:30 2023
 
 @author: Jonah Emmanuel
 """
@@ -24,8 +24,8 @@ class Rectangle:
         self.width = width
         self.height = height
         """
-        self.__height = height
-        self.__width = width
+        self.height = height
+        self.width = width
 
     @property
     def height(self):
