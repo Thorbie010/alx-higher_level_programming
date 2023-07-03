@@ -7,4 +7,9 @@ Created on Mon July 03 2023
 
 
 class Rectangle:
+    """Empty class Rectangle that defines a rectangle figure
+
+    Attributes:
+        empty
+    """
     pass
