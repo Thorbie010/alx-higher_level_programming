@@ -424,8 +424,3 @@ julien@ubuntu:~/0x07. Pyhton Strings$ python3 ./102-tests.py
   [ERROR] Invalid String Object
 julien@ubuntu:~/0x07. Pyhton Strings$ 
 ```
-
----
-
-## Author
-* **Robinson Montes** - [mecomonteshbtn](https://github.com/mecomonteshbtn)
