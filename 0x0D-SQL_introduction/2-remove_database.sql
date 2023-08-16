@@ -1,3 +1,3 @@
--- Deletes a database in sql
--- Deletes hbtn_0c_0 database from mySQL server
-DROP DATABASE IF EXIST hbtn_0c_0;
+-- Deletes a database using DROP
+-- Delete a database if its present
+DROP DATABASE IF EXISTS hbtn_0c_0;
