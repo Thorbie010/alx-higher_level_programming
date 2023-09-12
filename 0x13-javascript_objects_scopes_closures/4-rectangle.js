@@ -8,25 +8,21 @@ class Rectangle {
   }
 
   print () {
-    if (this.width === 0 || this.height === 0) {
-      console.log('');
-    } else {
-      for (let row = 0; row < this.height; row++) {
+    for (let row = 0; row < this.height; row++) {
         console.log('x'.repeat(this.width));
       }
     }
-  }
+
 
   double () {
     this.width *= 2;
-    for (let row = 0; row < this.height; row++) {
-      console.log('x'.repeat(this.width));
-    }
+    this.height *= 2;
   }
+  
 
   rotate () {
     const temp = this.width;
-    this.width = this.height * 2;
+    this.width = this.height;
     this.height = temp;
   }
 }
