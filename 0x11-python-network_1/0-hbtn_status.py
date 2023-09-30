@@ -1,12 +1,18 @@
-#!/usr/bin bash
-import urllib.request
-url = "https://alx-intranet.hbtn.io/status"
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug 30 01:15:59 2023
 
-try: 
-    with urllib.request.urlopen(url) as response:
-        data = response.read().decode('utf-8')
-        print("Body response:")
-        print("\t- type: {}".format(type(data)))
-        print("\t- content: {}".format(data))
-except Exception as e:
-    print("Error: {}".format(e))
+@author: Jonah Emmanuel
+"""
+from urllib.request import urlopen
+
+
+if __name__ == "__main__":
+    url = 'https://intranet.hbtn.io/status'
+    with urlopen(url) as response:
+        bytes_content = response.read()
+        content = bytes_content.decode('utf-8')
+        string = 'Body response:\n\t- type: {}\n\t- content: {}\n\t- \
+utf8 content: {}'.format(type(bytes_content), bytes_content, content)
+        print(string)
